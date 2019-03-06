@@ -1,0 +1,6 @@
+# 3. Напишите SQL-запрос добавления 2-ух полей в таблицу Users (из задания 2):
+#  profession и department.
+
+ALTER TABLE `Users`
+    ADD COLUMN `profession` VARCHAR(100) NOT NULL,
+    ADD COLUMN `department` VARCHAR(100) NOT NULL;
