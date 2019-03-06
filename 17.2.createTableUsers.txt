@@ -2,7 +2,7 @@
 # name, surname, email, age, city, country, status. 
 # По умолчанию поле status должно содержать значение “0”.
     
-CREATE TABLE Users1 (
+CREATE TABLE `Users` (
     `id` INT PRIMARY KEY AUTO_INCREMENT,
     `name` VARCHAR(50) NOT NULL, 
     `surname` VARCHAR(50) NOT NULL,
