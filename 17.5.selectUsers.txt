@@ -1,0 +1,8 @@
+# 5. Напишите SQL-запрос выборки данных о пользователях: 
+# необходимо вывести поля name, surname, age, city, country. 
+
+SELECT `name`, `surname`, `age`, `city`, `country` FROM `users`;
+SELECT `name`, `surname`, `age`, `city`, `country` FROM `users` ORDER BY `surname` ASC;
+SELECT `name`, `surname`, `age`, `city`, `country` FROM `users` WHERE `status` = 1;
+SELECT `name`, `surname`, `age`, `city`, `country` FROM `users` WHERE `age` > 40;
+SELECT `name`, `surname`, `age`, `city`, `country` FROM `users` WHERE `status` = 1 AND `age` BETWEEN 20 AND 30;
