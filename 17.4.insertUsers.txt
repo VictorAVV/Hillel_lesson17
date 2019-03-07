@@ -1,0 +1,19 @@
+# 4. Напишите SQL-запрос добавления информации о 3-х пользователях в таблицу Users (из задания 2).
+
+INSERT INTO `users`
+    (`name`, `surname`, `email`, `age`, `city`, `country`, `status`, `profession`, `department`) 
+    VALUES
+    ('Ivan', 'Ivanov', 'ivanov@gmail.com', 24, 'Kyiv', 'Ukraine', 1, 'business analyst', 'Business process modeling');
+INSERT INTO `users`
+    (`name`, `surname`, `age`, `status`, `profession`, `department`) 
+    VALUES
+    ('Petr', 'Petrov', 45, 1, 'occupational safety and fire safety engineer', 'Logistics support department');
+INSERT INTO `users` SET
+    `name` = 'Jhon', 
+    `surname` = 'Malich', 
+    `email` = 'jh_ma@yahoo.com', 
+    `age` = 37, 
+    `city` = 'New York', 
+    `country` = 'USA', 
+    `profession` = 'engineer-programmer', 
+    `department` = 'Software department';
